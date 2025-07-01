@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import PlayersList from './PlayersList';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <div className="overlay">
+        <h1 className="text-center mt-4 mb-5">🌍 Nos Joueurs Internationaux</h1>
+        <PlayersList />
+      </div>
+      <Footer />
+    </>
   );
 }
 
