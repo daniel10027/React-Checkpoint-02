@@ -44,7 +44,7 @@ L’exercice demandait de :
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/votre-utilisateur/player-site.git
+git clone https://github.com/vdaniel10027/React-Checkpoint-02.git
 cd player-site
 npm install
 npm start
